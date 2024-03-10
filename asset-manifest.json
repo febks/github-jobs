@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/github-jobs/static/css/main.1155722a.css",
-    "main.js": "/github-jobs/static/js/main.7df3bf06.js",
+    "main.js": "/github-jobs/static/js/main.53fc8353.js",
     "static/js/453.e1c95b84.chunk.js": "/github-jobs/static/js/453.e1c95b84.chunk.js",
     "index.html": "/github-jobs/index.html",
     "main.1155722a.css.map": "/github-jobs/static/css/main.1155722a.css.map",
-    "main.7df3bf06.js.map": "/github-jobs/static/js/main.7df3bf06.js.map",
+    "main.53fc8353.js.map": "/github-jobs/static/js/main.53fc8353.js.map",
     "453.e1c95b84.chunk.js.map": "/github-jobs/static/js/453.e1c95b84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1155722a.css",
-    "static/js/main.7df3bf06.js"
+    "static/js/main.53fc8353.js"
   ]
 }
