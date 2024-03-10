@@ -11,13 +11,13 @@ function App() {
   return (
     <Fragment>
       <Layout>
-        <BrowserRouter>
+        {/* <BrowserRouter> */}
           <Headbar />
           <Routes>
             <Route path={ROUTES.HOME} element={<Home />} exact />
             <Route path={ROUTES.DETAIL} element={<Detail />} exact />
           </Routes>
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
       </Layout>
     </Fragment>
   );

@@ -6,13 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import storeApp from './config/reduxConfig';
+import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={storeApp().store}>
     <PersistGate loading={<React.Fragment />} persistor={storeApp().persist}>
       <React.Suspense fallback={<React.Fragment />}>
-        <App />
+        <Router>
+          <App />
+        </Router>
       </React.Suspense>
     </PersistGate>
   </Provider>
